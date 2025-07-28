@@ -1,0 +1,70 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/Fn6LoUUQ)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10700871&assignment_repo_type=AssignmentRepo)
+# Battleship [![Docker Build & Push](https://github.com/softeng2223-inf-uniba/progetto2223-bernerslee/actions/workflows/docker_build&push.yml/badge.svg)](https://github.com/softeng2223-inf-uniba/progetto2223-bernerslee/actions/workflows/docker_build&push.yml)
+
+La struttura della repository si presenta nel seguente modo:
+
+```plaintext
+.
+├── .github
+│   └── workflows
+│       ├── docker_build&push.yml
+│       └── gradle_build.yml
+├── build
+│   └── reports
+│       ├── checkstyle
+│       ├── spotbugs
+│       └── tests/test
+├── config
+│   ├── checkstyle
+│   └── pmd
+├── docs
+│   ├── img
+│   ├── Assegnazione progetto.md
+│   ├── CODE_OF_CODUCT.md
+│   ├── ISPIRATORE.md
+│   ├── Guida per lo studente.md
+│   └── Report.md
+├── drawings
+├── gradle
+│   └── wrapper
+├── lib
+├── res
+├── src
+│   ├── main
+│   └── test
+├── .gitattributes
+├── .gitignore
+├── Dockerfile
+├── README.md
+├── build.gradle
+├── gradlew
+├── gradle.bat
+└── settings.gradle
+```
+
+Nel seguito si dettagliano i ruoli dei diversi componenti:
+
+- `.github/workflows`: la cartella raccoglie due file di configurazione di GitHub Actions, una funzionalità di GitHub che consente la definizione e l'esecuzione automatizzata di pipeline di Continuous Integration / Continuous Deployment (CI/CD). I due file sono: 
+  - `docker_build&push.yml`: contenente la pipeline che viene innescata dalle operazioni di push e merge sul branch `main`, la quale effettua la costruzione di un'immagine Docker con la nostra applicazione e il caricamento della stessa su [GitHub Packages](https://github.com/features/packages);   
+  - `gradle_build.yml`: contenente la pipeline che viene innescata da ogni Pull Request la quale effettua il testing, l'analisi del codice e la costruzione di un eseguibile; 
+- `build/`: ospita la sottocartella `reports/`, contenente gli output dei tool automatici di test e controllo di qualità;
+- `config/`: ospita i file di configurazione. L’unica configurazione di base richiesta è quella per il tool checkstyle;
+- `docs/`: ospita la documentazione di progetto, incluse le figure (nella sottocartella `img/`).
+  Il file `Report.md` verrà usato per redigere la relazione finale del progetto.
+  La cartella raccoglie inoltre:
+  - `Assegnazione progetto.md`: contenente la descrizione dettagliata del progetto assegnato;
+  - `Guida per lo studente.md`: contenente la descrizione di tutti i passi di configurazione necessari per l'attivazione del flusso di lavoro a supporto dello sviluppo del progetto;
+  - `ISPIRATORE.md`: file che riporta la biografia e i principali contributi del personaggio a cui il gruppo si è ispirato per il nome;
+  - `CODE_OF_CODUCT.md`: file che esplicita il codice di comportamento del gruppo;
+- `gradle/`: ospita il `.jar` relativo al sistema di gestione delle dipendenze *Gradle*.
+- `lib`: include eventuali librerie esterne utilizzate dal progetto.
+- `res`: contiene risorse varie utilizzate dal sistema
+- `src`: cartella principale del progetto, in cui scrivere tutto il codice dell’applicazione. In `main/` ci saranno i file sorgente e `test/` conterrà i test di unità previsti.
+- `drawings/`: contiene tutti i diagrammi UML usati per descrivere il progetto.
+- `.gitignore`: specifica tutti i file che devono essere esclusi dal sistema di controllo versione.
+- `build.gradle`: esplicita le direttive e la configurazione di *Gradle*.
+- `gradlew` e `gradlew.bat`: eseguibili di *Gradle*, rispettivamente dedicati a Unix e Windows.
+- `settings.gradle`: file di configurazione di *Gradle*.
+
+In alcune cartelle è possibile notare la presenza di un unico file nascosto `.keep`: questo ha il solo scopo di richiedere a Git l’inclusione delle cartelle in cui è contenuto (Git esclude dal *versioning* le cartelle vuote). Pertanto, il file può essere ignorato o eventualmente cancellato nel momento in cui si inserisca almeno un altro file all’interno della cartella.
