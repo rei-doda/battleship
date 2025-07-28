@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.8.1">
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\test\java\it\uniba\app\AppTest.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\test\java\it\uniba\elements\TestGameMap.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\test\java\it\uniba\elements\TestSaver.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\test\java\it\uniba\elements\TestShip.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\test\java\it\uniba\elements\TestVisualMap.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\test\java\it\uniba\features\TestDifficulty.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\test\java\it\uniba\features\TestPlayTime.java">
+</file>
+</checkstyle>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.uniba.features.PlayTimeTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-07-17T08:27:43" hostname="ELIA_LAPTOP" time="15.151">
+  <properties/>
+  <testcase name="testGetElapsedTime(): verifica che il tempo trascorso sia corretto (valore sopra specifico)" classname="it.uniba.features.PlayTimeTest" time="4.085"/>
+  <testcase name="testGetMinutesPerGame(): verifica che il tempo di gioco sia corretto (valore specifico)" classname="it.uniba.features.PlayTimeTest" time="0.002"/>
+  <testcase name="testGetRemainingTime(): verifica che il tempo rimanente sia corretto" classname="it.uniba.features.PlayTimeTest" time="2.022"/>
+  <testcase name="testGetMinutesPerGame(): verifica che il tempo di gioco sia corretto (valore sotto specifico)" classname="it.uniba.features.PlayTimeTest" time="0.0"/>
+  <testcase name="testGetMinutesPerGame(): verifica che il tempo di gioco sia corretto (valore sopra specifico)" classname="it.uniba.features.PlayTimeTest" time="0.0"/>
+  <testcase name="testGetElapsedTime(): verifica che il tempo trascorso sia corretto (valore sotto specifico)" classname="it.uniba.features.PlayTimeTest" time="2.007"/>
+  <testcase name="testGetTotalTime(): verifica che il tempo totale sia corretto" classname="it.uniba.features.PlayTimeTest" time="0.001"/>
+  <testcase name="testGetTotalTime(): Test che verifica che il tempo totale sia corretto (valore sotto specifico)" classname="it.uniba.features.PlayTimeTest" time="0.0"/>
+  <testcase name="testGetRemainingTime(): verifica che il tempo rimanente sia corretto (valore sopra specifico)" classname="it.uniba.features.PlayTimeTest" time="3.013"/>
+  <testcase name="testGetRemainingTime(): verifica che il tempo rimanente sia corretto (valore sotto specifico)" classname="it.uniba.features.PlayTimeTest" time="1.004"/>
+  <testcase name="testGetElapsedTime(): verifica che il tempo trascorso sia corretto" classname="it.uniba.features.PlayTimeTest" time="3.003"/>
+  <testcase name="testGetTotalTime(): verifica che il tempo totale sia corretto (valore sopra specifico)" classname="it.uniba.features.PlayTimeTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

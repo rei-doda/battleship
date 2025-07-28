@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TestShip</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TestShip</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/it.uniba.elements.html">it.uniba.elements</a> &gt; TestShip</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.006s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGetAllSlotCoords(): Test che verifica se le coordinate restituite sono corrette</td>
+<td class="success">testGetAllSlotCoords()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAllSlotCoordsWrong():Test che verifica se le coordinate restituite non sono corrette</td>
+<td class="success">testGetAllSlotCoordsWrong()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHitShipInvalidSlotShouldNotChangeSlotStatus(): verifica che hitShip() non cambi lo stato dello slot se non presente nella nave</td>
+<td class="success">testHitShipInvalidSlotShouldNotChangeSlotStatus()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHitShipValidSlotShouldSetSlotAsHit(): verifica che hitShip() imposti correttamente lo slot come colpito</td>
+<td class="success">testHitShipValidSlotShouldSetSlotAsHit()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsNotSunk(): Test che verifica se una nave non è affondata</td>
+<td class="success">testIsNotSunk()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSunk(): Test che verifica se una nave è affondata</td>
+<td class="success">testIsSunk()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSunkAfterAllSlotsHitShouldReturnTrue(): verifica che isSunk() restituisca true dopo aver colpito tutti gli slot della nave</td>
+<td class="success">testIsSunkAfterAllSlotsHitShouldReturnTrue()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSunkBeforeHitShipShouldReturnFalse(): verifica che isSunk() restituisca false prima di colpire la nave</td>
+<td class="success">testIsSunkBeforeHitShipShouldReturnFalse()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShipInitialization(): Test inizializzazione di una nave</td>
+<td class="success">testShipInitialization()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShipInitializationBigger():Test inizializzazione di una nave più grande di quella istanziata</td>
+<td class="success">testShipInitializationBigger()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShipInitializationSmaller():Test inizializzazione di una nave più piccola di quella istanziata</td>
+<td class="success">testShipInitializationSmaller()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0.2</a> at 17 lug 2023, 10:27:58</p>
+</div>
+</div>
+</body>
+</html>

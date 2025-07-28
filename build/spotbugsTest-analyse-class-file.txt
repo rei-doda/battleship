@@ -1,0 +1,7 @@
+C:\Users\valen\Desktop\progetto2223-bernerslee\build\classes\java\test\it\uniba\app\AppTest.class
+C:\Users\valen\Desktop\progetto2223-bernerslee\build\classes\java\test\it\uniba\elements\TestGameMap.class
+C:\Users\valen\Desktop\progetto2223-bernerslee\build\classes\java\test\it\uniba\elements\TestSaver.class
+C:\Users\valen\Desktop\progetto2223-bernerslee\build\classes\java\test\it\uniba\elements\TestShip.class
+C:\Users\valen\Desktop\progetto2223-bernerslee\build\classes\java\test\it\uniba\elements\TestVisualMap.class
+C:\Users\valen\Desktop\progetto2223-bernerslee\build\classes\java\test\it\uniba\features\PlayTimeTest.class
+C:\Users\valen\Desktop\progetto2223-bernerslee\build\classes\java\test\it\uniba\features\TestDifficulty.class

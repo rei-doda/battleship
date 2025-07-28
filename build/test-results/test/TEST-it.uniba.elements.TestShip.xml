@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.uniba.elements.TestShip" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-07-17T08:27:42" hostname="ELIA_LAPTOP" time="0.021">
+  <properties/>
+  <testcase name="testIsNotSunk(): Test che verifica se una nave non è affondata" classname="it.uniba.elements.TestShip" time="0.001"/>
+  <testcase name="testHitShipValidSlotShouldSetSlotAsHit(): verifica che hitShip() imposti correttamente lo slot come colpito" classname="it.uniba.elements.TestShip" time="0.001"/>
+  <testcase name="testShipInitializationSmaller():Test inizializzazione di una nave più piccola di quella istanziata" classname="it.uniba.elements.TestShip" time="0.001"/>
+  <testcase name="testShipInitialization(): Test inizializzazione di una nave" classname="it.uniba.elements.TestShip" time="0.0"/>
+  <testcase name="testIsSunkAfterAllSlotsHitShouldReturnTrue(): verifica che isSunk() restituisca true dopo aver colpito tutti gli slot della nave" classname="it.uniba.elements.TestShip" time="0.0"/>
+  <testcase name="testHitShipInvalidSlotShouldNotChangeSlotStatus(): verifica che hitShip() non cambi lo stato dello slot se non presente nella nave" classname="it.uniba.elements.TestShip" time="0.0"/>
+  <testcase name="testGetAllSlotCoordsWrong():Test che verifica se le coordinate restituite non sono corrette" classname="it.uniba.elements.TestShip" time="0.001"/>
+  <testcase name="testIsSunkBeforeHitShipShouldReturnFalse(): verifica che isSunk() restituisca false prima di colpire la nave" classname="it.uniba.elements.TestShip" time="0.001"/>
+  <testcase name="testShipInitializationBigger():Test inizializzazione di una nave più grande di quella istanziata" classname="it.uniba.elements.TestShip" time="0.001"/>
+  <testcase name="testGetAllSlotCoords(): Test che verifica se le coordinate restituite sono corrette" classname="it.uniba.elements.TestShip" time="0.0"/>
+  <testcase name="testIsSunk(): Test che verifica se una nave è affondata" classname="it.uniba.elements.TestShip" time="0.0"/>
+  <system-out><![CDATA[Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+Errore: Numero di Slot passati e numero di istanze possibili per tipo di nave non valido.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

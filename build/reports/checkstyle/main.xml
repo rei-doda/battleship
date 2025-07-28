@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.8.1">
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\app\App.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\app\package-info.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\elements\GameMap.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\elements\Saver.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\elements\Ship.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\elements\ShotParser.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\elements\Slot.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\elements\VisualMap.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\exceptions\CannotPositionShip.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\exceptions\InvalidShipInstance.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\exceptions\InvalidShotException.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\ColorShell.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\CommandType.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\Difficulty.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\Direction.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\GridSize.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\MapChar.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\PlayTime.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\ShipsFeatures.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\features\ShotResult.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\interfaces\CommandHandler.java">
+</file>
+<file name="C:\Users\valen\Desktop\progetto2223-bernerslee\src\main\java\it\uniba\interfaces\Field.java">
+</file>
+</checkstyle>

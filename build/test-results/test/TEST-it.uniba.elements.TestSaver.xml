@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.uniba.elements.TestSaver" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-17T08:27:42" hostname="ELIA_LAPTOP" time="0.487">
+  <properties/>
+  <testcase name="testSaveGame(): Test che verifica che il salvataggio di un gioco sia corretto" classname="it.uniba.elements.TestSaver" time="0.141"/>
+  <testcase name="testLoadNumObjects(): Test che verifica che il caricamento di un salvataggio restituisce 2 oggetti" classname="it.uniba.elements.TestSaver" time="0.21"/>
+  <testcase name="testLoadObjects(): Test che verifica che il caricamento di un salvataggio non restituisce oggetti null" classname="it.uniba.elements.TestSaver" time="0.134"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
