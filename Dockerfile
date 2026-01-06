@@ -1,4 +1,4 @@
-FROM openjdk:19-jdk-slim
+FROM eclipse-temurin:19-jdk-jammy
 RUN mkdir /app
 COPY ./build/libs/battleship-all.jar /app
 WORKDIR /app
